@@ -1,9 +1,10 @@
 # Tentacle-Tactics
 ## Intro
-           You have been traveing through the ocean
-           blue for a while now. Nothing seems to 
-           be stopping you on your lifelong journey
-           to have seen every grain of sand in the
+                      You have been traveing 
+           through the oceanblue for a while 
+           now. Nothing seems to be stopping
+           you on your lifelong journey to 
+           have seen every grain of sand in the
            sea. But wait...... while casually 
            sipping on some kelp juice one afternoon,
            you peer off into the distance and see 
