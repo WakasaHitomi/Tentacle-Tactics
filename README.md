@@ -54,7 +54,7 @@
            
          ~ Green Tentacle bombers ~
            These big bad bois die from
-         a total of two bullets making
-         contact upon their slimy, 
-         oozing, and sticky skin
-         
+          a total of two bullets making
+          contact upon their slimy, 
+          oozing, and sticky skin
+          ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/images/TT-M2-1.png "Logo Title Text 1")
