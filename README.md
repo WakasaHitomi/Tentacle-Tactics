@@ -50,6 +50,7 @@
             These guys will die with
            one hit from that handy 
            dandy blaster
+           ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/images/TT-M1-1.png "Logo Title Text 1")
            
          ~ Green Tentacle bombers ~
            These big bad bois die from
