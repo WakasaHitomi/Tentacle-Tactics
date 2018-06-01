@@ -16,6 +16,7 @@
            cause. But now who's laughing? They would
            never see the beauty and importance of this
            "lost cause" You'll show them all!!!
+           
 ###  Controls
            -  Shoot = Sapce
            -  Move = Arrow Keys(Left and Right)
@@ -34,3 +35,24 @@
          hits before your 
          ship's defense shield
          gives out.
+##### Enemies
+         You are taking out some unknown
+         kind of slimy thing in the ocean
+         .... 
+         Now let's be honest, you didn't
+         prepare yourself for this. But 
+         hey! Who could blame you?! Here
+         is a layout of what you're
+         dealing with:
+         
+         ~ Red Tentacle bombers ~
+            These guys will die with
+           one hit from that handy 
+           dandy blaster
+           
+         ~ Green Tentacle bombers ~
+           These big bad bois die from
+         a total of two bullets making
+         contact upon their slimy, 
+         oozing, and sticky skin
+         
