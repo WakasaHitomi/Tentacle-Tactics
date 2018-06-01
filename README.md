@@ -35,6 +35,7 @@
          hits before your 
          ship's defense shield
          gives out.
+         
 ##### Enemies
          You are taking out some unknown
          kind of slimy thing in the ocean
