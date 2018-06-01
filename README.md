@@ -25,6 +25,7 @@
            -  Move = Arrow Keys(Left and Right)
            
            
+ ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/images/TT-p-ship-1.png "Logo Title Text 1")
         
 #### Objective
          Defend from
@@ -39,6 +40,14 @@
          ship's defense shield
          gives out.
          
+   ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/screenshots/in_game_1.PNG "Logo Title Text 1")
+   
+   ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/screenshots/in_game_2.PNG "Logo Title Text 1")
+   
+   ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/screenshots/in_game_3.PNG "Logo Title Text 1")
+   
+   
+   
 ##### Enemies
          You are taking out some unknown
          kind of slimy thing in the ocean
