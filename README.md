@@ -1,14 +1,11 @@
 # Tentical-Tactics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-              Controls
-           ~~~~~~~~~~~~~~
+##  Controls
            -  Shoot = Sapce
            -  Move = Arrow Keys(Left and Right)
            
            
         
-             Objective
-         ~~~~~~~~~~~~~~~~
+### Objective
          Raise your score 
          as you defend from
          attacking tenticle 
