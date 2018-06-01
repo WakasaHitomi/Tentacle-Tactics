@@ -74,3 +74,6 @@
           
           
    ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/images/TT-M2-1.png "Logo Title Text 1")
+   
+   
+   [Download pre-release:](https://github.com/WakasaHitomi/Tentacle-Tactics/releases/tag/0.8.0)
