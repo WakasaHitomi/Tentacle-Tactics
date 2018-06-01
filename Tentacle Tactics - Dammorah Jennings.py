@@ -2,6 +2,13 @@
 import pygame
 import random
 import os
+import sys
+
+if getattr(sys, 'frozen', False):
+    current_path = sys._MEIPASS
+else:
+    current_path = os.path.dirname(__file__)
+
 
 # Initialize game engine
 pygame.init()
@@ -11,7 +18,7 @@ pygame.init()
 WIDTH = 1000
 HEIGHT = 800
 SIZE = (WIDTH, HEIGHT)
-TITLE = "Tentical Tactics"
+TITLE = "Tentacle Tactics"
 screen = pygame.display.set_mode(SIZE)
 pygame.display.set_caption(TITLE)
 
@@ -31,26 +38,26 @@ PINK = (255, 186, 233)
 PURPLE = (99, 45, 226)
 
 # Fonts
-FONT_SM = pygame.font.Font('images/Athena of the Ocean.ttf', 24)
-FONT_MD = pygame.font.Font('images/Athena of the Ocean.ttf', 32)
-FONT_LG = pygame.font.Font('images/Athena of the Ocean.ttf', 180)
+FONT_SM = pygame.font.Font(current_path  + 'images/Athena of the Ocean.ttf', 24)
+FONT_MD = pygame.font.Font(current_path  + 'images/Athena of the Ocean.ttf', 32)
+FONT_LG = pygame.font.Font(current_path  + 'images/Athena of the Ocean.ttf', 180)
 # Images
 
-ship_img = pygame.image.load('images/TT-p-ship-1.png')
-laser_img = pygame.image.load('images/bullet-1.png')
-mob_img = pygame.image.load('images/TT-M1-1.png')
-bomb_img = pygame.image.load('images/TT-M-bullets-1.png')
-mob2_img = pygame.image.load('images/TT-M2-1.png')
-bg_image = pygame.image.load('images/bg-1.png')
-start_img = pygame.image.load('images/start_bg.png')
-end_img = pygame.image.load('images/end-bg.png')
+ship_img = pygame.image.load(current_path  + 'images/TT-p-ship-1.png')
+laser_img = pygame.image.load(current_path  + 'images/bullet-1.png')
+mob_img = pygame.image.load(current_path  + 'images/TT-M1-1.png')
+bomb_img = pygame.image.load(current_path  + 'images/TT-M-bullets-1.png')
+mob2_img = pygame.image.load(current_path  + 'images/TT-M2-1.png')
+bg_image = pygame.image.load(current_path  + 'images/bg-1.png')
+start_img = pygame.image.load(current_path  + 'images/start_bg.png')
+end_img = pygame.image.load(current_path  + 'images/end-bg.png')
 
 
-healthbar5 = pygame.image.load('images/healthbar-1.png')
-healthbar4 = pygame.image.load('images/healthbar4-1.png')
-healthbar3 = pygame.image.load('images/healthbar3-1.png')
-healthbar2 = pygame.image.load('images/healthbar2-1.png')
-healthbar1 = pygame.image.load('images/healthbar1-1.png')
+healthbar5 = pygame.image.load(current_path  + 'images/healthbar-1.png')
+healthbar4 = pygame.image.load(current_path  + 'images/healthbar4-1.png')
+healthbar3 = pygame.image.load(current_path  + 'images/healthbar3-1.png')
+healthbar2 = pygame.image.load(current_path  + 'images/healthbar2-1.png')
+healthbar1 = pygame.image.load(current_path  + 'images/healthbar1-1.png')
 
 
 
@@ -59,15 +66,15 @@ healthbar1 = pygame.image.load('images/healthbar1-1.png')
 
 
 # Sounds
-EXPLOSION = pygame.mixer.Sound('images/explosion.ogg')
-ZAP = pygame.mixer.Sound('images/player-zap.ogg')
-EW = pygame.mixer.Sound('images/squish.ogg')
-SPLAT = pygame.mixer.Sound('images/splat.ogg')
+EXPLOSION = pygame.mixer.Sound(current_path  + 'images/explosion.ogg')
+ZAP = pygame.mixer.Sound(current_path  + 'images/player-zap.ogg')
+EW = pygame.mixer.Sound(current_path  + 'images/squish.ogg')
+SPLAT = pygame.mixer.Sound(current_path  + 'images/splat.ogg')
 
 
-L1_MUSIC = pygame.mixer.Sound('images/Fox-wedding.ogg')
-START_MUSIC = pygame.mixer.Sound('images/Psycho-Pass.ogg')
-END_MUSIC = pygame.mixer.Sound('images/Departures-Blessing.ogg')
+L1_MUSIC = pygame.mixer.Sound(current_path  + 'images/Fox-wedding.ogg')
+START_MUSIC = pygame.mixer.Sound(current_path  + 'images/Psycho-Pass.ogg')
+END_MUSIC = pygame.mixer.Sound(current_path  + 'images/Departures-Blessing.ogg')
 
 L1_MUSIC.play(-1)
 # Stages
@@ -409,7 +416,7 @@ stage = START
 #Game Helper functions
 def show_title_screen():
     screen.blit(start_img,(0, 0))
-    title_text = FONT_LG.render("Tentical Tactics!!!", 1, WHITE)
+    title_text = FONT_LG.render("Tentacle Tactics!!!", 1, WHITE)
     screen.blit(title_text, [228, 204])
     
 
