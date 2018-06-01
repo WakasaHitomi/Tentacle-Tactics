@@ -17,6 +17,8 @@
            never see the beauty and importance of this
            "lost cause" You'll show them all!!!
            
+   ![alt text](https://raw.githubusercontent.com/WakasaHitomi/Tentacle-Tactics/master/screenshots/TT-start_screen.PNG "Logo Title Text 1")
+           
 ###  Controls
            -  Shoot = Sapce
            -  Move = Arrow Keys(Left and Right)
